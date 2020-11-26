@@ -147,7 +147,7 @@ function removeGradesBelow50() {
     if (grades[i] < 50) {
       //count++
       grades.splice(i, 1)
+      i--
     }
   }
-  console.log(grades)
 }
